@@ -9,9 +9,9 @@ int main() {
     scanf("%d",&a);
     num=a&(1<<(sizeof(a)-1));
     if(num==1){
-        printf("Set")
+        printf("Set");
     }else{
-        "Not Set"
+        printf("Not Set");
     }
     return 0;
 }
