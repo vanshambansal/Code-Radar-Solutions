@@ -7,6 +7,11 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    printf("%a",a&1);
+    num=a&1;
+    if(num==1){
+        printf("Set");
+    }else{
+        printf("Not Set");
+    }
     return 0;
 }
