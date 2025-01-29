@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c",&ch);
-    (ch=="a"||"e"||"i"||"o"||"u")?printf("Vowel"):printf("Consonant")
+    (ch=="a"||"e"||"i"||"o"||"u")?printf("Vowel"):printf("Consonant");
     return 0;
 }
