@@ -13,8 +13,9 @@ int main() {
             break;
         }
         count++;
-        printf(count);
+        
     }
+    printf("%d",count);
 
     return 0;
 }
