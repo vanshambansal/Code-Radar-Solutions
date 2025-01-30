@@ -8,8 +8,8 @@ int main() {
     scanf("%d %d %c",&a,&b,&c);
     c=='+'?printf("%d",a+b):
     c=='-'?printf("%d",a-b):
-    c=='/'?printf("%d",a/b):
-    c=='*'?printf(b!=0?printf("%.2f",(float)a/b):printf("Error")):
+    c=='*'?printf("%d",a*b):
+    c=='/'?printf(b!=0?printf("%.2f",(float)a/b):printf("Error")):
     printf("Error");
     return 0;
 }
