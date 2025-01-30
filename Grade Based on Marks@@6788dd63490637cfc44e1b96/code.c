@@ -11,7 +11,7 @@ int main() {
     (a>=80&&a<=90)?printf("B"):
     (a>=70 && a<=80)?printf("C"):
     (a>=60&&a<=70)?printf("D"):
-    printf("D")
+    printf("D");
 
     return 0;
 }
