@@ -10,7 +10,7 @@ int main() {
     a==1?printf("31"):
     a==2?printf("28"):
     a==3?printf("31"):
-    a==4?printf(30):
+    a==4?printf("30"):
     a==5?printf("31"):
     a==6?printf("30"):
     a==7?printf("31"):
