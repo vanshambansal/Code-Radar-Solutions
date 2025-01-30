@@ -9,7 +9,7 @@ int main() {
     c=='+'?printf("%d",a+b):
     c=='-'?printf("%d",a-b):
     c=='*'?printf("%d",a*b):
-    c=='/'?(b!=0?printf("%d",a/b):printf("Error")):
+    c=='/'?(b!=0?printf("%d",a/b):printf("error")):
     printf("Error");
     return 0;
 }
