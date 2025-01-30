@@ -13,7 +13,7 @@ int main() {
             break;
         }
         count++;
-        printf(count)
+        printf(count);
     }
 
     return 0;
