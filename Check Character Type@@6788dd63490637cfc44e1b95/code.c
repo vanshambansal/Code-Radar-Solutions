@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c",&ch);
-    (ch=='a'||ch=='e'||ch== 'i'||ch=='o'||ch=='u')?printf("Vowel"):
+    (ch=='a'||ch=='e'||ch== 'i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')?printf("Vowel"):
     ((ch>='a' && ch<='z')||(ch>='A'&&ch<='Z'))?printf("Consonant"):
     (isdigit(ch))?printf("Digit"):
     printf("Special Character");
