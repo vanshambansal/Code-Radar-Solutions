@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&a);
     for(let i=a;i<=a;i++){
         for(let j=i;j<=i;j++){
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
