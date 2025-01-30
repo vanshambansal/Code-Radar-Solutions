@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     int count=0;
     for (int i=31;i>=0;i--){
-        if(n&(1<<i)){
+        if((n>>i)&1){
             break;
         }
         count++;
