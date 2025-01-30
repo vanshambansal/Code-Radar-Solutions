@@ -11,7 +11,7 @@ int main() {
     a=='B'?printf("Good"):
     a=='C'?printf("Average"):
     a=='D'?printf("Below Average"):
-    a=='E'?printf("Fail"):
+    a=='F'?printf("Fail"):
     printf("Invalid grade");
     return 0;
 }
