@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char ch;
-    scanf("%c",&ch);
+    char a;
+    scanf("%c",&a);
     a=='R'?printf("Stop"):
     a=='G'?printf("Go"):
     a=='Y'?printf("Slow Down"):
