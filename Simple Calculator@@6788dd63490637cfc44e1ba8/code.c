@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+
 
 int main() {
     int a,b;
@@ -11,7 +9,7 @@ int main() {
     c=='+'?printf("%d",a+b):
     c=='-'?printf("%d",a-b):
     c=='/'?printf("%d",a/b):
-    c=='*'?printf("%d",a*b):
+    c=='*'?printf(b!=0?printf("%.2f",(float)a/b):printf("Error")):
     printf("Error");
     return 0;
 }
