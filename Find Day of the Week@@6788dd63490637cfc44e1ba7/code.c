@@ -13,7 +13,7 @@ int main() {
     a==4?printf("Thursday"):
     a==5?printf("Friday"):
     a==6?printf("Saturday"):
-    a==7?printf("Sunday");
+    a==7?printf("Sunday"):
     printf("Invalid");
     return 0;
 }
