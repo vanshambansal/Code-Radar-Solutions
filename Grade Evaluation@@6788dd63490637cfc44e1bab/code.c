@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a;
-    scanf("%d",&a);
+    char a;
+    scanf("%c",&a);
     a=='A'?printf("Excellent"):
     a=='B'?printf("Good"):
     a=='C'?printf("Average"):
