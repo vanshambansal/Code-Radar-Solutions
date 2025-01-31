@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a:
+    int a;
     scanf("%d",&a);
     int count=0;
     while(!(a&(1<<31))){
