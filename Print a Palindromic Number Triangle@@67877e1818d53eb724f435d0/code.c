@@ -6,12 +6,13 @@ char* welcome() {
 
 int main() {
     int n;
-    int num=1;
+    int num;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=n-1;j++){
+        for(int j=i;j<=n-1;j++){
             printf(" ");
         }
+        num=1
         for(int k=1;k<=2*i-1;k++){
             printf("%d",num);
             if(k<i){
