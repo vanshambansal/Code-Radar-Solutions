@@ -10,7 +10,7 @@ int main() {
     int count=0;
     while((a&(1<<31))!=1){
         count++;
-        a=a<<1
+        a=a<<1;
         printf("%d",count);
     }
 
