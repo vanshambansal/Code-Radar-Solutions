@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    count=0;
+    int count=0;
     while((1&n)==0){
         count++;
         n=n>>1;
