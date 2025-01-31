@@ -14,6 +14,12 @@ int main() {
         }
         for(int k=1;k<=2*i-1;k++){
             printf("%d",num++);
+            if(num<=i){
+                printf("%d",num++);
+            }
+            else{
+                printf("%d",num--);
+            }
             
         }
         printf("\n");
