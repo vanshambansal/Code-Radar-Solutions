@@ -5,8 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a,count=0;
     scanf("%d",&a);
-    printf("%d",a & -a);
+    while((a&1)!=1){
+        count++;
+        a=a>>count;
+    }
+    printf("%d",count);
     return 0;
 }
