@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int n:
-    scanf("%d",&n);
+    int a:
+    scanf("%d",&a);
     int count=0;
     while((a&(1<<31))!=1){
         count++;
