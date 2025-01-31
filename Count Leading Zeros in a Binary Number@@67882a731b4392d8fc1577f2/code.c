@@ -8,14 +8,10 @@ int main() {
     int n:
     scanf("%d",&n);
     int count=0;
-    for (int i=31;i>=0;i--){
-        if((n>>i)&1){
-            break;
-        }
+    while((a&(1<<31))!=1){
         count++;
-        
+        printf("%d",count);
     }
-    printf("%d",count);
 
     return 0;
 }
