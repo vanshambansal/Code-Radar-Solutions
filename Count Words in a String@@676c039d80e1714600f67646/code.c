@@ -10,7 +10,7 @@ int main() {
     fgets(s,sizeof(s),stdin);
     count=1;
 
-    while(s[length]!='\o'){
+    while(s[length]!='\0'){
         length++
     }
 
