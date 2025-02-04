@@ -21,9 +21,10 @@ int main() {
             printf("No");
             return 0;
         }
+        }
         printf("Yes");
         
-    }
+    
 
     return 0;
 }
