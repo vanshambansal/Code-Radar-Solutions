@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     int count=0;
-    char s[100];
-    scanf("%s",s);
-    for (int i=0;s[i]!='\0';i++){
+    char str[100];
+    scanf("%s",str);
+    for (int i=0;str[i]!='\0';i++){
         if(str[i] == 'a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
             count++;
             
