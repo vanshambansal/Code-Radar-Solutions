@@ -8,7 +8,7 @@ int main() {
     char s[100];
     int length=0;
     fgets(s,sizeof(s),stdin);
-    count=1;
+    int count=1;
 
     while(s[length]!='\0'){
         length++;
