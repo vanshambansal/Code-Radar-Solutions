@@ -19,9 +19,10 @@ int main() {
     for(i=0;i<length;i++){
         if(reverse[i]!=s[i]){
             printf("No");
-        }else{
-            printf("Yes");
+            return 0;
         }
+        printf("Yes");
+        
     }
 
     return 0;
