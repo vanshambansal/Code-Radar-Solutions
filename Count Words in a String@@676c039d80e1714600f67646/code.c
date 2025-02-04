@@ -11,7 +11,7 @@ int main() {
     count=1;
 
     while(s[length]!='\0'){
-        length++
+        length++;
     }
 
     for(int i=0;i<length;i++){
