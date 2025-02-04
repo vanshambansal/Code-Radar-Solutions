@@ -8,8 +8,13 @@ char* welcome() {
 int main() {
     char s[100];
     scanf("%s",s);
-    printf("%s",strrev(s));
+    int len = strlen(s);
 
+    for(int i=len-1;i>=0;i--){
+        printf("%d"s[i]);
+    }
+
+  
 
     return 0;
 }
