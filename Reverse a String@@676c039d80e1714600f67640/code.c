@@ -7,7 +7,7 @@ char* welcome() {
 
 int main() {
     char s[100];
-    scanf("%s",&s);
+    scanf("%s",s);
     printf("%s",strrev(s));
 
 
