@@ -10,8 +10,8 @@ int main() {
     int length=0;
     while(s[length]!='\0'){
         length++;
-    }
     printf("%d",length);
+    }
 
     return 0;
 }
