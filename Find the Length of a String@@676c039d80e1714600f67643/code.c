@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char s[100];
-    scanf("%s",s);
+    fgets(s,sizeof(s),stdin);
     int length=0;
     while(s[length]!='\0'){
         length++;
