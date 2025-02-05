@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char s[100];
     scanf("%d",s);
-    int length;
+    int length=0;
     while(s[length]!='\0'){
         length++;
     }
