@@ -8,8 +8,10 @@ int main() {
     char s[100];
     scanf("%d",s);
     int length;
-    while(length!='\0'){
+    while(s[length]!='\0'){
         length++;
     }
+    printf("%d",length);
+
     return 0;
 }
