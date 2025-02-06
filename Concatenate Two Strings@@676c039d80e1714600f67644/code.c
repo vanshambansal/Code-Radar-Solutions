@@ -28,7 +28,7 @@ int main() {
         length++;
         j++;
     }
-    s[length]='\0'
+    s[length]='\0';
     printf("%s",s);
 
 
