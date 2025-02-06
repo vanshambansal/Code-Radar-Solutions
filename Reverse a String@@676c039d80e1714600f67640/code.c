@@ -10,7 +10,7 @@ int main() {
     int len = 0;
 
     while(s[len]!='\0'){
-        length++;
+        len++;
     }
     for(int i=len-1;i>=0;i--){
         printf("%c",s[i]);
