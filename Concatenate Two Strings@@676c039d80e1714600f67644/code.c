@@ -24,7 +24,7 @@ int main() {
 
     int j=0;
     while(s1[j]!='\0'&&s1[j]!='\n'){
-        s[length]=s1[length];
+        s[length]=s1[j];
         length++;
         j++;
     }
