@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 char* welcome() {
     return "Welcome to Code Radar!";
@@ -8,13 +7,14 @@ char* welcome() {
 int main() {
     char s[100];
     scanf("%s",s);
-    int len = strlen(s);
+    int len = 0;
 
-    for(int i=len-1;i>=0;i--){
-        printf("%d"s[i]);
+    while(len!='\0'){
+        length++;
     }
-
-  
+    for(int i=len-1;i>=0;i--){
+        printf("%c",s[i]);
+    }
 
     return 0;
 }
