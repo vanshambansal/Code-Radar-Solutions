@@ -15,7 +15,7 @@ int main() {
             num=num*10;
         }
     }
-    printf("llu",num);
+    printf("%llu",num);
 
     return 0;
 }
