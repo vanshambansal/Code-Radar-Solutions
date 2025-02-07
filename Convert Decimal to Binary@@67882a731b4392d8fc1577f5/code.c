@@ -5,16 +5,17 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a,num=0;
     scanf("%d",&a);
     for(int i=31;i>=0;i--){
         if(a&(1<<i)){
-            printf("1");
+            num=1;
         }
         else{
-            printf("0");
+            num=0;
         }
     }
+    printf("%d",num);
 
     return 0;
 }
