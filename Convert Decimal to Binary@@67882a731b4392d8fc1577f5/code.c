@@ -9,10 +9,10 @@ int main() {
     scanf("%d",&a);
     for(int i=31;i>=0;i--){
         if(a&(1<<i)){
-            num=1;
+            num=num*10+1;
         }
         else{
-            num=0;
+            num=num*10;
         }
     }
     printf("%d",num);
