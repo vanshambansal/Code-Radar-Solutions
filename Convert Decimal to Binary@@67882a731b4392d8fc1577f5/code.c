@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,num=0;
+    unsigned long long a,num=0;
     scanf("%d",&a);
     for(int i=31;i>=0;i--){
         if(a&(1<<i)){
@@ -15,7 +15,7 @@ int main() {
             num=num*10;
         }
     }
-    printf("%d",num);
+    printf("llu",num);
 
     return 0;
 }
