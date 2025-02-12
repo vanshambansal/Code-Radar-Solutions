@@ -10,4 +10,4 @@ int main() {
     scanf("%d %d",&n,&b);
     printf("%d",n|(1<<b));
     return 0;
-}
+    }
