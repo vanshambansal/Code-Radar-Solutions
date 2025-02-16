@@ -8,7 +8,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int num = a&1;
-    if(num==1){
+    if(num!=0){
         printf("Set");
     }else{
         printf("Not Set");
