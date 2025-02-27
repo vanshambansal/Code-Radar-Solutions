@@ -21,9 +21,7 @@ int main(){
         if(arr[i] >secondmax && arr[i]<max){
             secondmax=arr[i];
         }
-        else{
-            secondmax=-1;
-        }
+        
     }
 
     printf("%d",secondmax);
