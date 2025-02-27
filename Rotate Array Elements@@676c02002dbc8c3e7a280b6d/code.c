@@ -16,7 +16,7 @@ int main(){
         arr[i]=arr[k+i];
     }
     for(int i=1;i<=k;i++){
-        arr[i]=temp[k];
+        arr[i]=temp[i];
     }
     for(int i=0;i<=n;i++){
         printf("%d",arr[i]);
