@@ -8,10 +8,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if(arr[0]>arr[1]){
-        printf("%d",&arr[0]);
+        printf("%d",arr[0]);
     }
     else if(arr[n-2]<arr[n-1]){
-        printf("%d",&arr[n-1]);
+        printf("%d",arr[n-1]);
     }
     else{
         for(int i=1;i<n-1;i++){
@@ -22,7 +22,5 @@ int main(){
         
     }
     }
-
-
     return 0;
 }
