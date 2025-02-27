@@ -3,17 +3,23 @@ int main(){
 
     int n;
     scanf("%d",&n);
-    int arr[n],max;
+    int arr[n],max.secondmax=-1;
     for (int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
     arr[0]=max;
     for (int i=0;i<n;i++){
         if(arr[i]>max){
-            max[]=arr[i];
+            max=arr[i];
         }
     }
-    printf("%d",max[1]);
+    for(int i=0;i<n;i++){
+        if(secondmax>arr[i] && secondmax<max){
+            secondmax=arr[i];
+        }
+    }
+
+    printf("%d",secondmax);
 
 
 
