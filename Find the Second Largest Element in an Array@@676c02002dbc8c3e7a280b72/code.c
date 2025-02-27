@@ -14,7 +14,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        if(arr[i] >secondmax && secondmax<max){
+        if(arr[i] >secondmax && arr[i]<max){
             secondmax=arr[i];
         }
     }
