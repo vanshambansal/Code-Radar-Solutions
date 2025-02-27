@@ -14,15 +14,12 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        if(secondmax>arr[i] && secondmax<max){
+        if(arr[i] >secondmax && secondmax<max){
             secondmax=arr[i];
         }
     }
 
     printf("%d",secondmax);
-
-
-
 
     return 0;
 }
