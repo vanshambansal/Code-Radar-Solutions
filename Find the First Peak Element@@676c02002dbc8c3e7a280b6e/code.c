@@ -9,21 +9,22 @@ int main(){
     }
     if(arr[0]>arr[1]){
         printf("%d",arr[0]);
+        return 0;
     }
-    else if(arr[0]<arr[1] && arr[n-2]<arr[n-1]){
-        for(int i=1;i<n-1;i++){
-        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+    
+    for(int i=1;i<n-1;i++){
+    if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             printf("%d",arr[i]);
-            break;
+            return 0;
         }
         
+    
     }
-    }
-    else if(arr[n-2]<arr[n-1]){
+    if(arr[n-2]<arr[n-1]){
         printf("%d",arr[n-1]);
+        return 0;
     }
-    else{
         printf("-1");
-    }
+    
     return 0;
 }
