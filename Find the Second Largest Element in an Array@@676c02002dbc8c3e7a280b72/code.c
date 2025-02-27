@@ -22,7 +22,7 @@ int main(){
             secondmax=arr[i];
         }
         else{
-            printf("-1");
+            secondmax=-1;
         }
     }
 
