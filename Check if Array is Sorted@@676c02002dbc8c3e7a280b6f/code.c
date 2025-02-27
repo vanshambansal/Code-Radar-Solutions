@@ -9,15 +9,14 @@ int main(){
     for(int i=0;i<=n;i++){
         if (arr[i]<=arr[i+1]){
             printf("Sorted");
-            
+            return 0;
         }
-        break;
+        
 
     }
-    else {
-        
+     
             printf("Not Sorted");
-    }
+
         
     
 
