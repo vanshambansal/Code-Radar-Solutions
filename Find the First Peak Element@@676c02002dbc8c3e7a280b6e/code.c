@@ -7,20 +7,21 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=2;i<n-2;i++){
-        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
-            printf("%d",arr[i]);
-            break;
-        }
-        
-    }
     if(arr[0]>arr[1]){
         printf("%d",&arr[0]);
     }
     else if(arr[n-2]<arr[n-1]){
         printf("%d",&arr[n-1]);
     }
-    
+    else{
+        for(int i=1;i<n-1;i++){
+        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
+            break;
+        }
+        
+    }
+    }
 
 
     return 0;
