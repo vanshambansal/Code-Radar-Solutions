@@ -22,10 +22,10 @@ int main(){
         freqindex++;
     
 
-    int max = arr[0];
+    int max = freq[0];
     for(int i=1;i<n;i++){
-        if (arr[i]>max){
-            max=arr[i];
+        if (freq[i]>max){
+            max=freq[i];
         }
 
     }
