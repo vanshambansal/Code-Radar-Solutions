@@ -10,7 +10,7 @@ int main(){
     }
     int maxfreq=0,mostfreqelement=-1;
 
-    for(int i=1;i<n;i++){
+    for(int i=0;i<n;i++){
         if(visited[i]==1){
             continue;
         }
@@ -25,8 +25,6 @@ int main(){
             maxfreq=count;
             mostfreqelement=arr[i];
         }
-
-
 
     }
    
