@@ -9,7 +9,7 @@ int main(){
     }
     int visited[n];
     for(int i=0;i<n;i++){
-        visited[i]=1;
+        visited[i]=0;
     }
     for(int i=0;i<n;i++){
         if(visited[i]==1){
