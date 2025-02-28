@@ -3,36 +3,34 @@ int main(){
 
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],visited[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        visited[i]=0;
     }
-    int freq[n];
-    int freqindex = 0;
+    int maxfreq=0,mostfreqelement=-1;
+
     for(int i=0;i<n;i++){
-            int count=1;
+        if(visited[i]==1){
+            continue;
+        }
+        int count=1;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
-                
+                visited[j]=1;
             }
-
         }
-        freq[freqindex] = count;
-        freqindex++;
-    
-
-    int max = freq[0];
-    for(int i=1;i<n;i++){
-        if (freq[i]>max){
-            max=freq[i];
+        if(count>maxfreq){
+            maxfreq=count;
+            mostfreqelement=arr[i];
         }
 
-    }
-    printf("%d",max);
+
 
     }
-
+   
+    printf("%d",mostfreqelement);
 
 
 
