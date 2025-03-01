@@ -11,15 +11,11 @@ int main(){
             if((arr[i]%j)!=0){
                 break;
             }
-            else{
-                return 0;
+            if(j==arr[i]-1){
+                count++;
             }
-            count++;
         }
     }
     printf("%d",count);
-
-
-
-    return 0;
+   return 0;
 }
