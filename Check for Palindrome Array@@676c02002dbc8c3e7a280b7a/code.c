@@ -12,13 +12,14 @@ int main(){
         arr1[i]=arr[n-1-i];
     }
     for(int i=0;i<n;i++){
-        if(arr[i]==arr1[i]){
-            printf("Yes");
-        }
-        else{
+        if(arr[i]!=arr1[i]){
             printf("No");
+            return 0;
         }
     }
+    printf("Yes");
+            
+
 
     return 0;
 }
