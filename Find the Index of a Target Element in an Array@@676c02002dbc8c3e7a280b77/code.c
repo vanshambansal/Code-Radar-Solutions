@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&b);
     for(int i=0;i<n;i++){
         if(arr[i]==b){
-            printf("%d",arr[i]);
+            printf("%d",i);
              break;
         }
        
