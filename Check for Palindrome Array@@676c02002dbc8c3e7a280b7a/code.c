@@ -13,13 +13,11 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=arr1[i]){
-            printf("No");
+            printf("NO");
             return 0;
         }
     }
-    printf("Yes");
-            
-
-
+    printf("YES");
+  
     return 0;
 }
