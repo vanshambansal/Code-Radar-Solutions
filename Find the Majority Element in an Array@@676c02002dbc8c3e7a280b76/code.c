@@ -27,8 +27,14 @@ int main(){
         }
 
     }
-   
-    printf("%d",mostfreqelement);
+   if(maxfreq > (n/2)){
+        printf("%d",mostfreqelement);
+      }
+    else{
+        printf("-1");
+    }
+
+
 
 
 
