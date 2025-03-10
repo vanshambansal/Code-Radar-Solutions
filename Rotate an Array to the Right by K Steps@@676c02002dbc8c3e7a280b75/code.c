@@ -1,5 +1,5 @@
 #include<stdio.h>
-int mainL(){
+int main(){
     int n,k;
     scanf("%d",&n);
     int arr[n];
@@ -11,8 +11,13 @@ int mainL(){
     for(int i=0;i<k;i++){
         temp[i]=arr[n-k+i];
     }
-    for()
     
+    for(int i=n-1; i>=k; i--){
+        arr[i+k]=arr[i];
+    }
+    for(int i=0;i<k;i++){
+        arr[i]=temp[i];
+    }
 
 
     return 0;
