@@ -13,10 +13,10 @@ int main(){
         arr[i]= arr[i]/10;
         }
         sum1[i]=sum;
-    }
-    for(int i=0;i<n;i++){
         printf("%d ",sum1[i]);
+        sum=0
     }
+    
 
 
     return 0;
