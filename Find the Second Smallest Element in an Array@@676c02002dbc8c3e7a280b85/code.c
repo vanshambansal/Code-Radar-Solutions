@@ -16,7 +16,7 @@ int main(){
 
     }
     for(int i=1;i<n;i++){
-        if(min2>min && min2>arr[i]){
+        if(min2>min && arr[i]<min2){
             min2=arr[i];
         }
     }
