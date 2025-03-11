@@ -8,6 +8,9 @@ int main(){
     }
     int sum1[n];
     for(int i=0;i<n;i++){
+        if(arr[i]<0){
+            arr[i]=-1*arr[i];
+        }
         while(arr[i]!=0){
         sum =sum +arr[i]%10;
         arr[i]= arr[i]/10;
