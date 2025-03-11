@@ -9,22 +9,20 @@ int main(){
     int arr1[n];
     for(int i=0;i<n;i++){
         int count =0;
-        for(int j=i+1;j<n;j++){
+        for(int j=1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
             }
         }
         arr1[i]=count;
+    }
     int max= arr1[0];
     for(int i=1;i<n;i++){
         if(arr1[i]>max){
             max = arr1[i];
-            printf("%d",max);
-
         }
     }
-    }
-
+    
 
     return 0;
 }
