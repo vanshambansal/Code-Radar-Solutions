@@ -11,9 +11,12 @@ int main(){
         while(arr[i]!=0){
         sum =sum +arr[i]%10;
         arr[i]= arr[i]/10;
+        }
+        sum1[i]=sum;
     }
+    for(int i=0;i<n;i++){
+        printf("%d ",sum1[i]);
     }
-    printf("%d",sum);
 
 
     return 0;
