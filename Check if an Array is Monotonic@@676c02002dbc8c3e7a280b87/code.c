@@ -18,12 +18,12 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]<=arr[j]){
-                flaginc=0;
+                flagdec=0;
             }
            
         }
     }
-    if(flaginc || flaginc){
+    if(flaginc || flagdec){
         printf("YES");
     }else{
         printf("NO");
