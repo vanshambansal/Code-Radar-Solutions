@@ -20,7 +20,7 @@ int main(){
     for(int i=1;i<n;i++){
         if(arr1[i]>max){
             max = arr1[i];
-            mostfreq =arr[i]
+            mostfreq =arr[i];
         }
     }
     
