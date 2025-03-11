@@ -30,7 +30,7 @@ int main(){
     if(flag==1){
         printf("YES");
     }else{
-        printf("NO")
+        printf("NO");
     }
 
 
