@@ -14,8 +14,9 @@ int main(){
     }
     int arr1[n];
     for(int i=0;i<count;i++){
-        arr[i]==0;
+        arr1[i]==0;
     }
+
     for(int i=0;i<n;i++){
         printf("%d ",arr1[i]);
     }
