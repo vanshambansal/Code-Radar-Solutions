@@ -35,21 +35,28 @@ int main(){
     //             return 0;
     //         }
     //     }
-  
-        if (arr[0] > 1) {
-        printf("1");
-        return 0;
-    }
+  //________________  
+    //     if (arr[0] > 1) {
+    //     printf("1");
+    //     return 0;
+    // }
 
-    for (int i = 1; i < n; i++) {
-        if (arr[i] > 0 && arr[i] - arr[i - 1] > 1) {
-            printf("%d", arr[i - 1] + 1);
-            return 0;
+    // for (int i = 1; i < n; i++) {
+    //     if (arr[i] > 0 && arr[i] - arr[i - 1] > 1) {
+    //         printf("%d", arr[i - 1] + 1);
+    //         return 0;
+    //     }
+    // }
+
+    // printf("%d", arr[n - 1] + 1);
+
+
+        int smallest = 1; 
+    for (int i = 0; i < n; i++) {
+        if (arr[i] == smallest) {
+            smallest++; 
         }
     }
-
-    printf("%d", arr[n - 1] + 1);
-
 
 
     return 0;
