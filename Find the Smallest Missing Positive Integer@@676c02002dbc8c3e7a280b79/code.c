@@ -57,6 +57,8 @@ int main(){
             smallest++; 
         }
     }
+        printf("%d\n", smallest);
+
 
 
     return 0;
