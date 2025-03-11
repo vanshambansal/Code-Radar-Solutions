@@ -16,9 +16,9 @@ int main(){
 
     }
     for(int i=1;i<n;i++){
-        if(max2<max && max2>arr[i]{
+        if(max2<max && max2>arr[i]){
             max2=arr[i];
-        })
+        }
     }
     if(max2){
         printf("%d",max2);
