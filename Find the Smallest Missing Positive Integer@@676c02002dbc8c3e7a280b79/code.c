@@ -16,7 +16,7 @@ int main(){
         }
     }
     for(int i=1;i<n;i++){
-        if(arr[i]>0 || arr[i-1]>0){
+        if(arr[i]>0 && arr[i-1]>0){
             if(arr[0]>1){
                 printf("1");
                 break;
