@@ -15,26 +15,42 @@ int main(){
             }
         }
     }
-    for(int i=1;i<n;i++){
-        if(arr[i]>=0 && arr[i-1]>=0 || arr[i-1]>=0){
-            if(arr[0]>1){
-                printf("1");
-                return 0;
-            }
-            else if(arr[i]-arr[i-1]!=1){
-               printf("%d", arr[i-1]+1);
-               return 0;
-            }
-            else{
-                printf("%d",arr[n-1]+1);
-                return 0;
-            }
-            }
-            else{
-                printf("1");
-                return 0;
-            }
-        }
+    // for(int i=1;i<n;i++){
+    //     if(arr[i]>=0 && arr[i-1]>=0 || arr[i-1]>=0){
+    //         if(arr[0]>1){
+    //             printf("1");
+    //             return 0;
+    //         }
+    //         else if(arr[i]-arr[i-1]!=1){
+    //            printf("%d", arr[i-1]+1);
+    //            return 0;
+    //         }
+    //         else{
+    //             printf("%d",arr[n-1]+1);
+    //             return 0;
+    //         }
+    //         }
+    //         else{
+    //             printf("1");
+    //             return 0;
+    //         }
+    //     }
   
+        if (arr[0] > 1) {
+        printf("1");
+        return 0;
+    }
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > 0 && arr[i] - arr[i - 1] > 1) {
+            printf("%d", arr[i - 1] + 1);
+            return 0;
+        }
+    }
+
+    printf("%d", arr[n - 1] + 1);
+
+
+
     return 0;
 }
