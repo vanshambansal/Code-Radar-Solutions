@@ -20,12 +20,9 @@ int main(){
             max2=arr[i];
         }
     }
-    if(max2){
+    
         printf("%d",max2);
-    }
-    else{
-        printf("-1");
-    }
+    
     
 
     return 0;
