@@ -6,11 +6,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int flag =1;
+    int flaginc =1,flagdec=1;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]>=arr[j]){
-                flag=0;
+                flaginc=0;
             }
             
         }
@@ -18,12 +18,12 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]<=arr[j]){
-                flag=0;
+                flaginc=0;
             }
            
         }
     }
-    if(flag==1){
+    if(flaginc || flaginc){
         printf("YES");
     }else{
         printf("NO");
