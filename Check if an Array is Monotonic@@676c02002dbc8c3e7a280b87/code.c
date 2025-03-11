@@ -9,7 +9,7 @@ int main(){
     int flaginc =1,flagdec=1;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]>=arr[j]){
+            if(arr[i]>arr[j]){
                 flaginc=0;
             }
             
@@ -17,7 +17,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]<=arr[j]){
+            if(arr[i]<arr[j]){
                 flagdec=0;
             }
            
@@ -28,8 +28,5 @@ int main(){
     }else{
         printf("NO");
     }
-
-
-
-    return 0;
+ return 0;
 }
