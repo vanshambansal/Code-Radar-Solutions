@@ -16,14 +16,15 @@ int main(){
         }
         arr1[i]=count;
     }
-    int max= arr1[0];
+    int max= arr1[0], mostfreq= arr[0];
     for(int i=1;i<n;i++){
         if(arr1[i]>max){
             max = arr1[i];
+            mostfreq =arr[i]
         }
     }
     
-    printf("%d",max);
+    printf("%d",mostfreq);
 
     return 0;
 }
