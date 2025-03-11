@@ -9,13 +9,14 @@ int main(){
     int arr1[n];
     int count =0;
     for(int i=0;i<n;i++){
+        int count =0;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
             }
         }
         arr1[i]=count;
-        count=0;
+        
     }
     int max= arr1[0];
     for(int i=1;i<n;i++){
