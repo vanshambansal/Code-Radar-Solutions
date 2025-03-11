@@ -14,7 +14,7 @@ int main(){
         }
         sum1[i]=sum;
         printf("%d ",sum1[i]);
-        sum=0
+        sum=0;
     }
     
 
