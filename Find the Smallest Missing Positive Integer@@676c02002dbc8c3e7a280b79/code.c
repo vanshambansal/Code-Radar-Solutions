@@ -15,9 +15,17 @@ int main(){
             }
         }
     }
-
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
+    for(int i=1;i<n;i++){
+        if(arr[i]>0){
+            if(arr[i]-arr[i-1]!=1){
+               printf("%d", arr[i-1]+1);
+            }
+            else{
+                printf("%d",arr[n-1]+1);
+            }
+            }
+        }
+       
     }
 
     return 0;
