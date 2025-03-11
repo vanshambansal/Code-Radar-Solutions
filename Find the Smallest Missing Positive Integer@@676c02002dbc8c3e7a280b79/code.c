@@ -16,7 +16,7 @@ int main(){
         }
     }
     for(int i=1;i<n;i++){
-        if(arr[i]>0){
+        if(arr[i]>0 || arr[n-1]>0){
             if(arr[i]-arr[i-1]!=1){
                printf("%d", arr[i-1]+1);
                break;
