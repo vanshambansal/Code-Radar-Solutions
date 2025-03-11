@@ -6,21 +6,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    int count=0;
     for(int i=0;i<n;i++){
         if(arr[i]==0){
-            count++;
+            printf("%d ",arr[i]);
+        }
+        if(arr[i]!=0){
+            printf("%d ",arr[i]);
         }
     }
-    int arr1[n];
-    for(int i=0;i<count;i++){
-        arr1[i]==0;
-    }
-
-    for(int i=0;i<n;i++){
-        printf("%d ",arr1[i]);
-    }
-
+   
 
 
     return 0;
