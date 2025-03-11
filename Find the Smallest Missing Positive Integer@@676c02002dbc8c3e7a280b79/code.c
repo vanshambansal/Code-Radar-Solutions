@@ -19,6 +19,7 @@ int main(){
         if(arr[i]>0 || arr[n-1]>0){
             if(arr[0]>1){
                 printf("1");
+                break;
             }
             else if(arr[i]-arr[i-1]!=1){
                printf("%d", arr[i-1]+1);
