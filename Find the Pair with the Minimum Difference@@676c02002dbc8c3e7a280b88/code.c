@@ -10,7 +10,7 @@ int main(){
         for(int j=i+1 ; j<n;j++){
             if((arr[i]-arr[j])<min){
                 if((arr[i]-arr[j])<0){
-                    (arr[i]-arr[j]) *=(-1);
+                    (arr[i]-arr[j]) = (arr[i]-arr[j]) *(-1);
                 }
                 min = arr[i]-arr[j];
                 
