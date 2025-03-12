@@ -13,7 +13,7 @@ int main(){
             break;
         }
         else{
-            printf("%d",(n/2)+((n/2)+1)/2);
+            printf("%d",((n/2)+((n/2)+1))/2);
             break;
         }
 
