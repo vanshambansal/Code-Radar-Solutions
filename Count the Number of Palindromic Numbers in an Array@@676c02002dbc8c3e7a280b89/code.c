@@ -15,7 +15,7 @@ int main(){
     for(int i=0;i<n;i++){
         int sum =0;
         if(arr[i]<0){
-            break;
+            continue;
         }
         while(arr[i]!=0){
             sum = sum*10+arr[i]%10;
@@ -24,8 +24,7 @@ int main(){
         if(sum==temp[i]){
             count++;
         }
-    }
-    
+    }   
     printf("%d",count);
  
     return 0;
