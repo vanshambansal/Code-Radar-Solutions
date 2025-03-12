@@ -14,7 +14,7 @@ int main(){
             }
         }
     }
-    if(max==0){
+    if(max==-1000){
         printf("-1");
     }
     else{
