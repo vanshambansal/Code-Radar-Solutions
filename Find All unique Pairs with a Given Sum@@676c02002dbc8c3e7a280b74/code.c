@@ -11,7 +11,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 printf("%d %d\n",arr[i],arr[j]);
-                continue;
+                break;
             }
             else if((arr[i]+arr[j])==k){
                 printf("%d %d\n",arr[i],arr[j]);
