@@ -9,11 +9,11 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1 ; j<n;j++){
             if((arr[i]-arr[j])<min){
-                 if(min<0){
-                    min=min*(-1);
+                if((arr[i]-arr[j])<0){
+                    (arr[i]-arr[j]) +=*(-1);
                 }
                 min = arr[i]-arr[j];
-               
+                
             }
         }
     }
