@@ -21,14 +21,17 @@ int main(){
         }
     }
   
-                if(a>b){
-                    printf("%d %d",b,a);
-                }
-                else if (b>a){
-                    printf("%d %d",a,b);
-                }else{
-                    printf("-1");
-                }
+            if (a == -1 && b == -1) {
+        printf("-1");
+    } else {
+       
+        if (a > b) {
+            printf("%d %d", b, a);
+        } else {
+            printf("%d %d", a, b);
+        }
+    }
+
                 
               
     return 0;
