@@ -11,7 +11,7 @@ int main(){
             if((arr[i]-arr[j])<min){
                 min = arr[i]-arr[j];
                 if(min<0){
-                    min=min*(-1);
+                    continue;
                 }
             }
         }
