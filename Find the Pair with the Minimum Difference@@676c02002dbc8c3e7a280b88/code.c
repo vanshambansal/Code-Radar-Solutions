@@ -10,19 +10,16 @@ int main(){
         for(int j=i+1 ; j<n;j++){
             if((arr[i]-arr[j])<min){
                 min = arr[i]-arr[j];
-                a = arr[i];
-                b = arr [j];
             }
         }
     }
-    if(a>b){
-        printf("%d %d",b,a);
+    for(int i=0;i<n;i++){
+        for(int i=i+1;i<n;i++){
+            if((arr[i]-arr[j])==min){
+                printf("%d %d",arr[j],arr[i]);
+            }
+        }
     }
-    else{
-        printf("%d %d",a,b);
-    }
-
-
 
     return 0;
 }
