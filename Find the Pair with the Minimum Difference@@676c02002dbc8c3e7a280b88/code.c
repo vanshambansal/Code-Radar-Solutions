@@ -8,11 +8,12 @@ int main(){
     }
     for(int i=0;i<n;i++){
         for(int j=i+1 ; j<n;j++){
-            if((arr[i]-arr[j])<min){
-                if((arr[i]-arr[j])<0){
-                    arr[i]-arr[j] = -(arr[i]-arr[j]) ;
+            int diff  = arr[i]-arr[j]
+            if(diff < min){
+                if(diff<0){
+                    diff = -diff;
                 }
-                min = arr[i]-arr[j];
+                min = diff;
                 
             }
         }
