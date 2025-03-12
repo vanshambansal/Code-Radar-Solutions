@@ -9,11 +9,11 @@ int main(){
     }
    
         if(n%2!=0){
-            printf("%d",arr[(n/2)+1]);
+            printf("%d",arr[((n/2)+1)-1]);
            
         }
         else{
-            printf("%d",arr[((n/2)+((n/2)+1))/2]);
+            printf("%d",arr[(((n/2)+((n/2)+1))/2)-1]);
             
         }
 
