@@ -8,8 +8,8 @@ int main(){
     }
     
     for(int i=0;i<n;i++){
+        max= -100;
         if(arr[i]%2==0){
-            max= -100;
             if(arr[i]>max){
                 max=arr[i];
             }
