@@ -18,7 +18,7 @@ int main(){
             sum = sum*10+arr[i]%10;
             arr[i] =arr[i]/10;
         }
-        if(rev==temp[i]){
+        if(sum==temp[i]){
             count++;
         }
     }
