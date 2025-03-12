@@ -14,6 +14,12 @@ int main(){
             }
         }
     }
-    printf("%d",max);
+    if(max==0){
+        printf("-1");
+    }
+    else{
+        printf("%d",max);
+    }
+   
     return 0;
 }
