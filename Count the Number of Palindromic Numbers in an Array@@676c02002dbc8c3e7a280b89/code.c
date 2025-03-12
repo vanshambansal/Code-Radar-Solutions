@@ -6,18 +6,20 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr1[n];
+    int temp[n];
+    for(int i=0;i<n;i++){
+        temp[i]=arr[i];
+    }
     int sum =0;
     for(int i=0;i<n;i++){
         while(arr[i]!=0){
             sum = sum*10+arr[i]%10;
             arr[i] =arr[i]/10;
         }
-        arr1[i] = arr[i];
     }
     int count =0;
     for(int i=0;i<n;i++){
-        if(arr[i]==arr1[i]){
+        if(arr[i]==temp[i]){
             count++;
         }
     }
