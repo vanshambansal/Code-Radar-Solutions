@@ -9,18 +9,22 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1 ; j<n;j++){
             int diff  = arr[i]-arr[j];
-            if(diff < min){
-                if(diff<0){
+            if(diff<0){
                     diff = -diff;
                 }
-                min = diff;
+            if(diff < min){
                 
+                min = diff;  
             }
         }
     }
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if((arr[i]-arr[j])==min){
+            int diff  = arr[i]-arr[j];
+            if(diff<0){
+                    diff = -diff;
+                }
+            if(diff == min){
                 printf("%d %d",arr[j],arr[i]);
             }
         }
