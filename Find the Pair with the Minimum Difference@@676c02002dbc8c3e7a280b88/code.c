@@ -22,10 +22,10 @@ int main(){
     }
   
                 if(a>b){
-                    printf("%d %d",arr[j],arr[i]);
+                    printf("%d %d",b,a);
                 }
                 else if (b>a){
-                    printf("%d %d",arr[i],arr[j]);
+                    printf("%d %d",a,b);
                 }else{
                     printf("-1");
                 }
@@ -71,7 +71,7 @@ int main(){
 //     }
 
 //     // Printing the first pair with the smallest difference
-//     if (a > b) {  // ✅ Ensure smaller number comes first
+//     if (a > b) {  // Ensure smaller number comes first
 //         printf("%d %d\n", b, a);
 //     } else {
 //         printf("%d %d\n", a, b);
