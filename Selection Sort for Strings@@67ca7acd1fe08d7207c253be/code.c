@@ -3,7 +3,7 @@ void selectionSort(char* arr[],int n){
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 int k = 0;
-            while (arr[i][k] == arr[j][k]) { 
+            while (arr[i][k] != '\0' && arr[j][k] != '\0' && arr[i][k] == arr[j][k]) { 
                 k++;
             }
                 if(arr[i][k]>arr[j][k]){
