@@ -7,7 +7,7 @@ void bubbleSort(char* arr[],int n){
                 k++;
             }
             if(arr[i][k] > arr[j][k]){
-                int temp= arr[i];
+                char* temp= arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
             }
