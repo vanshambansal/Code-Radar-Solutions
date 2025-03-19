@@ -1,0 +1,18 @@
+void selectionSort(char* arr[],int n){
+        
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                if(arr[i][0]>arr[j][0]){
+                    int temp= arr[i][0];
+                    int arr[i][0] = arr[j][0];
+                    int arr[j][0] = temp;
+                }
+            }
+        }
+}
+
+void printArray(char* arr[n],int n){
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+}
