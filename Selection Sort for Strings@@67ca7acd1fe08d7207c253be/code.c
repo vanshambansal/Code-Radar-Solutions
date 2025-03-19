@@ -1,7 +1,7 @@
 void selectionSort(char* arr[],int n){
         
         for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n-1;j++){
+            for(int j=i+1;j<n;j++){
                 int k = 0;
             while (arr[i][k] != '\0' && arr[j][k] != '\0' && arr[i][k] == arr[j][k]) { 
                 k++;
