@@ -1,9 +1,14 @@
-int findKthMissing(int arr[], int n,int k){
-    for(int i=0;i<n;i++){
-        int smallest=1;
-        if(arr[i]==smallest){
-            smallest++;
+nt findKthMissing(int arr[], int n, int k) {
+    int miss = 1;
+    while(k > 0) {
+        for(int i = 0; i < n; i++) {
+            if(arr[i] == miss) 
+            {
+                miss++;
+            }
         }
-        return smallest;
+        miss++;
+        k--;
     }
+    return --miss;
 }
