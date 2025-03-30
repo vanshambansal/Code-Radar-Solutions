@@ -14,6 +14,8 @@ void selectionSort(char arr[][100], int n) {
         }
     }
 }
+#include <stdio.h>
+#include <string.h>
 
 // Print function remains the same
 void printArray(char arr[][100], int n) {
