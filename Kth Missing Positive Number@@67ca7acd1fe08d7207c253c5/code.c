@@ -4,6 +4,6 @@ int findKthMissing(int arr[], int n,int k){
         if(arr[i]==smallest){
         smallest++;
         }
+        return smallest;
     }
-    return smallest;
 }
