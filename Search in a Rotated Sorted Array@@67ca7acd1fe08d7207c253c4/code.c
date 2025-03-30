@@ -4,7 +4,7 @@ int searchInRotatedArray(int arr[],int n , int target){
         int search =0;
         if(arr[i]==target){
             search=1;
-            found =1
+            found =1;
         }
         if(search){
             return i;
