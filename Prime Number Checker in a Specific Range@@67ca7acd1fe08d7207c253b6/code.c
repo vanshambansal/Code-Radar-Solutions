@@ -1,9 +1,6 @@
 void printPrimesInRange(int a,int b){
     for(int i=a;i<=b;i++){
-        if(i<2 ){
-            printf("No prime numbers");
-            break;
-        }
+        int found =0;
         int isprime=0;
         for(int j=2;j<i;j++){
             if((i%j)==0){
@@ -12,6 +9,10 @@ void printPrimesInRange(int a,int b){
         }
         if(isprime==0){
             printf("%d ",i);
+            found=1;
+        }
+        if(found==0){
+            printf("No prime numbers");
         }
     }
 
