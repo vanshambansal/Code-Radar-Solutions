@@ -10,5 +10,5 @@ int findKthMissing(int arr[], int n, int k) {
         miss++;
         k--;
     }
-    return --miss;
+    return --miss;
 }
