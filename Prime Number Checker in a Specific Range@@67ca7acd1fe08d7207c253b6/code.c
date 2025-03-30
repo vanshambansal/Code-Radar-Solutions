@@ -1,5 +1,5 @@
 void printPrimesInRange(int a,int b){
-
+    int arr[100];
     for(int i=a;i<=b;i++){
         int isprime=0;
         for(int j=2;j<arr[i];j++){
