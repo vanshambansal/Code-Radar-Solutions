@@ -18,7 +18,7 @@ int main() {
             arr[index++]=maxRight;
         }
     }
-    for(int i=0;i<n;i++){
+    for(int i=index-1;i>=0;i--){
         printf("%d ",arr[i]);
     }
     
