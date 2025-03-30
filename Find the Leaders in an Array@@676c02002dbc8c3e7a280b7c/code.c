@@ -1,22 +1,23 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    for(int i=1;i<n;i++){
-       
-        if(arr[i-1]>arr[i]){
-            printf("%d ", arr[i-1]);
-        }
-        else{
-            arr[i-1]=arr[i];
-        }
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
 
-         printf("%d ", arr[n-1]);
+    int maxRight = arr[n - 1];  // Last element is always a leader
+    printf("%d ", maxRight);
 
+    for (int i = n - 2; i >= 0; i--) {
+        if (arr[i] > maxRight) {
+            maxRight = arr[i];
+            printf("%d ", maxRight);
+        }
+    }
+    
     return 0;
 }
