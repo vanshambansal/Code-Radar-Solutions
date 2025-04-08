@@ -10,21 +10,20 @@ void deflateBalloons(int arr[],int n){
             }
         }
     }
-    int k=0;
-    for(int i=0;i<n;i++){
-        int count =0;
-        for(int j=0;j<n;j++){
-            if(arr[j]>0){
-                count ++;
+    for(int i=0; i<n; i++) {
+        int count = 0;
+
+        for(int j=0; j<n; j++) {
+            if(arr[j] > 0) {
+                count++;
+                arr[j] -= arr[i];
             }
-                arr[j]= arr[j] - arr[k];
-
-            
-
         }
-        printf("%d\n",count);
-        k++;
+
+        if(count > 0)
+            printf("%d\n", count);
     }
+
 
 
 }
