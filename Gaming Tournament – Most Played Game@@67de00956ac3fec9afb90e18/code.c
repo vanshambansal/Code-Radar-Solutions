@@ -12,6 +12,5 @@ int mostPlayedGame(int arr[] ,  int n){
             mostfreq=arr[i];
         }
     }
-    printf("%d",mostfreq);
-    
+    return mostfreq;    
 }
