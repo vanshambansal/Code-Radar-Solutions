@@ -16,6 +16,9 @@ void deflateBalloons(int arr[], int n) {
 
         }
         printf("%d\n",count);
+        if(count == 0) {
+            break;
+        }
 
     }
 }
