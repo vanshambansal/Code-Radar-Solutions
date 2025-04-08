@@ -15,7 +15,7 @@ void deflateBalloons(int arr[], int n) {
             }
 
         }
-        printf("%d",count);
+        printf("%d\n",count);
 
     }
 }
