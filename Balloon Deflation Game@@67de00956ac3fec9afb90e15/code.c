@@ -1,24 +1,24 @@
 void deflateBalloons(int arr[], int n) {
-        int min = 1e9;
-        int count = 0;
+    while(1){
 
-        // Find minimum positive air level
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > 0 && arr[i] < min) {
-                min = arr[i];
+        int min=1000000;
+        int count =0;
+        for(int i=0;i<n;i++){
+            if(arr[i]<min){
+                min=arr[i];
             }
         }
-
-        // If all balloons are deflated, break
-       
-        // Deflate all with min air
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > 0) {
-                arr[i] -= min;
+        for(int i=0;i<n;i++){
+            if(arr[i]>0){
                 count++;
+                arr[i]-=min;
             }
+
         }
 
-        printf("%d\n", count);
-    }
+        printf("%d",count);
 
+
+
+    }
+}
