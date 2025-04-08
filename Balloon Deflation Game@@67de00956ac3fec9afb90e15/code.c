@@ -18,7 +18,7 @@ int main(){
     }
     int count =0,k=0;
     for(int i=0;i<n;i++){
-        for(for j=0;j<n;j++){
+        for(int j=0;j<n;j++){
             if(arr[j]>0){
                 count ++;
                 int min= arr[i] - arr[k];
