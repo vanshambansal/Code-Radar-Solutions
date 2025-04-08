@@ -1,7 +1,7 @@
 int mostPlayedGame(int arr[] ,  int n){
     int count = 0,maxfrq=-100,mostfreq;
     for(int i=0;i<n;i++){
-        for(int j=i+!;j<n;j++){
+        for(int j=i+1;j<n;j++){
             if(arr[i]<arr[j]){
                 int temp=arr[i];
                 arr[i]=arr[j];
