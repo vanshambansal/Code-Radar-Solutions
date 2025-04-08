@@ -1,5 +1,4 @@
 void deflateBalloons(int arr[], int n) {
-    while (1) {
         int min = 1e9;
         int count = 0;
 
@@ -24,4 +23,4 @@ void deflateBalloons(int arr[], int n) {
 
         printf("%d\n", count);
     }
-}
+
