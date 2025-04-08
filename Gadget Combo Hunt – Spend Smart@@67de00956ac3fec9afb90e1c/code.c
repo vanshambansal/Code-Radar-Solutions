@@ -9,5 +9,5 @@ int maxGadgetSpend(int key[] , int n , int head[] , int m , int budget){
             }
         }
     }
-    printf("%d",&max);
+    printf("%d",max);
 }
