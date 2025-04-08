@@ -10,9 +10,7 @@ void deflateBalloons(int arr[], int n) {
         }
 
         // If all balloons are deflated, break
-        if (min == 1e9)
-            break;
-
+       
         // Deflate all with min air
         for (int i = 0; i < n; i++) {
             if (arr[i] > 0) {
