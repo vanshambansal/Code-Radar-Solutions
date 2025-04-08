@@ -16,8 +16,8 @@ void deflateBalloons(int arr[],int n){
         for(int j=0;j<n;j++){
             if(arr[j]>0){
                 count ++;
-                int min= arr[i] - arr[k];
-                arr[i]-=min;
+                int min= arr[j] - arr[k];
+                arr[j]-=min;
 
             }
 
