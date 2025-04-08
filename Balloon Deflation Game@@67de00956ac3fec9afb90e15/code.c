@@ -4,7 +4,7 @@ void deflateBalloons(int arr[], int n) {
         int min=1000;
         int count =0;
         for(int i=0;i<n;i++){
-            if(arr[i]<min && arr[i]>0){
+            if(arr[i]<min && arr[i]>=0){
                 min=arr[i];
             }
         }
