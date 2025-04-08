@@ -1,7 +1,6 @@
 int findPrankReceiver(int n,int m,int s){
-    int arr[n];
     for(int i=0;i<n;i++){
-        if(arr[i]==arr[m]+arr[s]){
+        if(i == m+ s ){
             return i;
         }
     }
