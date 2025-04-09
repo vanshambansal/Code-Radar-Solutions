@@ -6,8 +6,10 @@ int calculatePenalty(int d , int m , int y , int dd , int dm , int dy){
         int ans = 200 * (m - dm);
         return ans;
     }
-    else{
+    else if((d - dd)>0){
         int ans1 = 10 * (d - dd);
         return ans1;
+    }else{
+        return 0;
     }
 }
