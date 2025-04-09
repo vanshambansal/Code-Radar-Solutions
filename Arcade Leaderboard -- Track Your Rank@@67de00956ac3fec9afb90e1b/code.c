@@ -1,4 +1,4 @@
-void trackPLayerRanks(int ranked[] , int n , int played[] , int m , int result[]){
+void trackPlayerRanks(int ranked[] , int n , int played[] , int m , int result[]){
 
     for(int i=0;i<m;i++){
         int count =0;
