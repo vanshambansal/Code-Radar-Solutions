@@ -7,7 +7,7 @@ void trackPlayerRanks(int ranked[] , int n , int played[] , int m , int result[]
                 count ++;
             }
         }
-        result[i]=count-1;
+        result[i]=count;
     }
 
 }
