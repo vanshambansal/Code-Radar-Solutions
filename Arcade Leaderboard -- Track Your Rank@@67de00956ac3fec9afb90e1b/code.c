@@ -4,6 +4,7 @@ void trackPlayerRanks(int ranked[] , int n , int played[] , int m , int result[]
         int count =0;
         for(int j=0 ; j<n ; j++){
             if(played[i]<ranked[j]){
+                ranked[j]=played[i];
                 count ++;
             }
         }
