@@ -1,5 +1,8 @@
 int calculatePenalty(int d , int m , int y , int dd , int dm , int dy){
-    if((y - dy)>0){
+    if((dy - y)>0){
+        return 0;
+    }
+    else if((y - dy)>0){
         return 5000;
     }
     else if((m - dm)>0){
