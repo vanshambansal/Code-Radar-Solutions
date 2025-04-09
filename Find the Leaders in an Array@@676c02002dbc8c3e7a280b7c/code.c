@@ -28,5 +28,5 @@ int main() {
         scanf("%d",&arr[i]);
     }
     printLeader(arr,n);
-    return 0;
+    return 0;
 }
