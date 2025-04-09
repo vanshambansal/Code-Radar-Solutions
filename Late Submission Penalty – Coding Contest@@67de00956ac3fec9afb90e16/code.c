@@ -1,8 +1,8 @@
 int calculatePenalty(int d , int m , int y , int dd , int dm , int dy){
-    if((dy - y)!=0){
+    if((y - dy)>0){
         return 5000;
     }
-    else if((dm - m)!=0){
+    else if((dm - m)>0){
         int ans = 200 * (m - dm);
         return ans;
     }
