@@ -8,7 +8,7 @@ int kangaroo(int x1 , int v1 , int x2 , int v2){
     //     else return -1;
         if(v1 == v2) return -1; 
 
-        int y;
+        int y = (x2 - x1) / (v1 - v2);
 
     if ((y>=0) && (x1 + v1 * y) == (x2 + v2 * y)) {
         return y;
