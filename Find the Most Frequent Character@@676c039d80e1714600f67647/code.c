@@ -12,10 +12,15 @@ int main(){
                 count++;
             }
         }
-        if(count>max){
-            max=count;
+                if(count > max){
+            max = count;
             mostfreq = s[i];
         }
+        else if(count == max && s[i] < mostfreq){
+            mostfreq = s[i];
+        }
+    }
+
     }
     printf("%c",mostfreq);
     
