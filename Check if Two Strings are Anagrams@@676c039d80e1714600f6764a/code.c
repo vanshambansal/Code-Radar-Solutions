@@ -6,8 +6,9 @@ int main(){
     fgets(s , 100 , stdin);
     fgets(s1 , 100 , stdin);
 
-    for(int i=0 ; s[i]!='\0' ; i++){
     int flag =0;
+
+    for(int i=0 ; s[i]!='\0' ; i++){
 
         for(int j=0 ; s1[j]!='\0';j++){
 
