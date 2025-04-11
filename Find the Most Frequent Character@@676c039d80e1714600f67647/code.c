@@ -4,7 +4,7 @@ int main(){
     char s[100];
     fgets(s,100,stdin);
     
-    int max =-1;
+    int max =-1 , mostfreq;
     for(int i=0;s[i]!='\0';i++){
         int count =1;
         for(int j=i+1;s[j]!='\0';j++){
@@ -14,9 +14,10 @@ int main(){
         }
         if(count>max){
             max=count;
-            printf("%c",s[i]);
+            mostfreq = arr[i];;
         }
     }
+    printf("%c",mostfreq)
     
 
 
