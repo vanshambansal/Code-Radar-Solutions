@@ -12,9 +12,8 @@ int main(){
         }
     }
     
-        for(int i=0 ; s[i] !='\0' ; i++){
-            printf("%c",s[i]);
-        }
+            printf("%s",s);
+        
 
     return 0;
 }
