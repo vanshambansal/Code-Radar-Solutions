@@ -7,8 +7,8 @@ int main(){
     scanf("%c",&c2);
 
     for(int i=0 ; s[i] !='\0' ; i++){
-        if(s[i]=='c1'){
-            s[i]='c2';
+        if(s[i]== c1){
+            s[i]= c2;
         }
     }
     
