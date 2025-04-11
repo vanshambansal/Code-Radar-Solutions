@@ -13,7 +13,7 @@ int main(){
     }
     
         for(int i=0 ; s[i] !='\0' ; i++){
-            printf("%s",s[i]);
+            printf("%c",s[i]);
         }
 
     return 0;
