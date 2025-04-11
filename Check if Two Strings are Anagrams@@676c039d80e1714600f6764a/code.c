@@ -11,12 +11,12 @@ int main(){
 
         for(int j=0 ; s1[j]!='\0';j++){
 
-            if(s[i] != s1[j]){
+            if(s[i] == s1[j]){
                 flag=1;
             }
         }
     }
-    if(flag == 0){
+    if(flag == 1){
         printf("Yes");
     }
     else{
