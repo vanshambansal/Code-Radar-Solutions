@@ -7,7 +7,7 @@ int main(){
     for(int i=0 ; s[i]!='\0';i++){
 
         for(int j=i+1 ; s[j]!= '\0' ;j++){
-            if(s[i]==s[j]){
+            if(s[i]!=s[j]){
                 printf("%c",s[i]);
                 return 0;
             }
