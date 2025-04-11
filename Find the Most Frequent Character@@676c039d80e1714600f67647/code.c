@@ -5,9 +5,9 @@ int main(){
     fgets(s,100,stdin);
     
     int max =-1;
-    for(int i=0;i!='\0';i++){
+    for(int i=0;s[i]!='\0';i++){
         int count =1;
-        for(int j=i+1;j!='\0';j++){
+        for(int j=i+1;s[j]!='\0';j++){
             if(s[i]==s[j]){
                 count++;
             }
