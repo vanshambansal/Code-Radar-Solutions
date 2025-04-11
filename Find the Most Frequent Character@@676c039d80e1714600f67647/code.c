@@ -12,7 +12,7 @@ int main(){
                 count++;
             }
         }
-        if(count>=max){
+        if(count>max){
             max=count;
             mostfreq = s[i];;
         }
