@@ -9,7 +9,7 @@ int main(){
     int flag =0;
     for(int i=0 ; s[i]!='\0' ; i++){
 
-        for(int j=0 ; s1[i]!='\0';j++){
+        for(int j=0 ; s1[j]!='\0';j++){
 
             if(s[i] != s1[j]){
                 flag=1;
