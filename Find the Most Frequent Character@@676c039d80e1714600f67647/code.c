@@ -6,6 +6,7 @@ int main(){
     
     int max =-1;
     for(int i=0;i!='\0';i++){
+        int count =1;
         for(int j=i+1;j!='\0';j++){
             if(s[i]==s[j]){
                 count++;
