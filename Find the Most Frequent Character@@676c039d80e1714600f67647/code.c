@@ -14,7 +14,7 @@ int main(){
         }
         if(count>max){
             max=count;
-            printf("%c",c[i]);
+            printf("%c",s[i]);
         }
     }
     
