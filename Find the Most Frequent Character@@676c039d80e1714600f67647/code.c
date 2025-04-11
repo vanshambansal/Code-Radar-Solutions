@@ -14,7 +14,7 @@ int main(){
         }
         if(count>max){
             max=count;
-            mostfreq = arr[i];;
+            mostfreq = s[i];;
         }
     }
     printf("%c",mostfreq)
