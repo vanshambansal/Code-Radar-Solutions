@@ -17,7 +17,7 @@ int main(){
             mostfreq = s[i];;
         }
     }
-    printf("%c",mostfreq)
+    printf("%c",mostfreq);
     
 
 
